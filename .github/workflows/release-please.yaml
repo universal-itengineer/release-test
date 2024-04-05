@@ -19,5 +19,5 @@ on:
           id: release
           with:
             token: ${{ secrets.GITHUB_TOKEN }}
-            target-branch: ${{ github.ref_name }}
+            # target-branch: ${{ github.ref_name }}
             release-type: simple
