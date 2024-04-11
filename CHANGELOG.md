@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/universal-itengineer/release-test/compare/v1.3.0...v1.4.0) (2024-04-11)
+
+
+### Features
+
+* add line to file ([#13](https://github.com/universal-itengineer/release-test/issues/13)) ([e1465b7](https://github.com/universal-itengineer/release-test/commit/e1465b7118cbf33a7826cea6c36b03891b64a8b4))
+
 ## [1.3.0](https://github.com/universal-itengineer/release-test/compare/v1.2.0...v1.3.0) (2024-04-11)
 
 
