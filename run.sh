@@ -1,6 +1,6 @@
-NEW_BRANCH=feat/new-feat7
+NEW_BRANCH=feat/new-feat8
 COMMIT_MSG=$(echo $NEW_BRANCH | cut -d '/' -f2)
-git swich main
+git switch main
 git pull
 git checkout -b $NEW_BRANCH
 git echo $NEW_BRANCH >> awesome.txt
