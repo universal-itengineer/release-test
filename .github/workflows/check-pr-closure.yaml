@@ -2,7 +2,9 @@ name: Pull Request Checks
 
 on:
   pull_request:
-    types: [closed]
+    branches:
+      - main
+      - release-please--branches--main
 
 jobs:
   check_pr_closure:
