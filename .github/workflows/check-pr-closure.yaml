@@ -10,6 +10,8 @@ jobs:
 
     steps:
       - name: Check if PR title contains 'release'
+        # if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+        if: github.event.pull_request.merged == true
         id: check_title
         run: |
           title=$(jq -r .pull_request.title $GITHUB_EVENT_PATH)
