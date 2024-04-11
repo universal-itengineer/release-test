@@ -1,0 +1,25 @@
+name: Pull Request Checks
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  check_pr_closure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if PR title contains 'release'
+        id: check_title
+        run: |
+          title=$(jq -r .pull_request.title $GITHUB_EVENT_PATH)
+          if [[ "$title" == *"release"* ]]; then
+            echo "PR title contains 'release'."
+            
+            approved_users=("username1")  # List of approved GitHub usernames
+            user=$(jq -r .pull_request.user.login $GITHUB_EVENT_PATH)
+            if [[ ! " ${approved_users[@]} " =~ " $user " ]]; then
+              echo "Not authorized to close PR with 'release' title."
+              exit 1
+            fi
+          fi
