@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/universal-itengineer/release-test/compare/v1.2.0...v1.3.0) (2024-04-11)
+
+
+### Features
+
+* feat/new-feat4 ([#11](https://github.com/universal-itengineer/release-test/issues/11)) ([8f3c05b](https://github.com/universal-itengineer/release-test/commit/8f3c05b4a56ba849edf0ef67682e04b51719d5b5))
+
 ## [1.2.0](https://github.com/universal-itengineer/release-test/compare/v1.1.0...v1.2.0) (2024-04-05)
 
 
