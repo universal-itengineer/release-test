@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/universal-itengineer/release-test/compare/v1.4.0...v1.5.0) (2024-04-11)
+
+
+### Features
+
+* run script.sh ([#16](https://github.com/universal-itengineer/release-test/issues/16)) ([26e4391](https://github.com/universal-itengineer/release-test/commit/26e439171f0c698039da278447b972a51a16d781))
+
 ## [1.4.0](https://github.com/universal-itengineer/release-test/compare/v1.3.0...v1.4.0) (2024-04-11)
 
 
