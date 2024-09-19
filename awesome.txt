@@ -4,3 +4,4 @@ feat/new-feat4
 feat/new-feat5
 feat/new-feat6
 fix/fix-some
+fix/fix-some2
