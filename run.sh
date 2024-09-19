@@ -1,4 +1,4 @@
-NEW_BRANCH=feat/new-feat8
+NEW_BRANCH=feat/new-feat11
 COMMIT_MSG=$(echo $NEW_BRANCH | cut -d '/' -f2)
 git swich main
 git pull
