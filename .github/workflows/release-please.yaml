@@ -1,4 +1,4 @@
-name: release-please
+name: release please
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # target-branch: ${{ github.ref_name }}
+          # target-branch: {{ github.ref_name }}
           release-type: simple
     #-----#
       - uses: actions/checkout@v4
