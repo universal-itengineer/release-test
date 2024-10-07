@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.5.1](https://github.com/universal-itengineer/release-test/compare/v1.5.0...v1.5.1) (2024-09-19)
+
+
+### Features
+
+* ch wf ([58138de](https://github.com/universal-itengineer/release-test/commit/58138ded4ec606d15f5cc5446b4ad03c8d3b93ee))
+* new feat9 ([#19](https://github.com/universal-itengineer/release-test/issues/19)) ([bd1af9f](https://github.com/universal-itengineer/release-test/commit/bd1af9f456a15a36bd465c8e0d80d112d7478c84))
+* new wf ([25db692](https://github.com/universal-itengineer/release-test/commit/25db69200a716a05ac0d197248ad6e2629a6d2aa))
+
+
+### Bug Fixes
+
+* release 1.6.0 ([#23](https://github.com/universal-itengineer/release-test/issues/23)) ([c327eaa](https://github.com/universal-itengineer/release-test/commit/c327eaa9417d5971046c47e71e7792f6ed19825f))
+* some ([#22](https://github.com/universal-itengineer/release-test/issues/22)) ([46875fe](https://github.com/universal-itengineer/release-test/commit/46875fe9bbac326bd36aea03f25b36bc49eae5ae))
+* wf ([#18](https://github.com/universal-itengineer/release-test/issues/18)) ([6344f9f](https://github.com/universal-itengineer/release-test/commit/6344f9ff2d40be948abb38dd723af2a7eb384b72))
+
 ## [1.5.0](https://github.com/universal-itengineer/release-test/compare/v1.4.0...v1.5.0) (2024-04-11)
 
 
