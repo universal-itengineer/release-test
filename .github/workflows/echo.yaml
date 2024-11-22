@@ -1,0 +1,22 @@
+name: Echo
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, labeled, unlabeled]
+    branches:
+      - main
+  push:
+    branches:
+      - main
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
+
+jobs:
+  check_pr_closure:
+    runs-on: ubuntu-latest
+    name: Echo
+    steps:
+      - name: Show gh ref
+        run: |
+          - echo ${{ github.ref_name }}"
+    
